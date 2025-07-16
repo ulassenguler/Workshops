@@ -24,7 +24,8 @@ printf("%s %s\n",First_Name, Last_Name);
 printf("%d\n",ID);
     
     getchar();
-
+    getchar();
+    
 return 0;
 
 }
