@@ -23,7 +23,7 @@ printf("Sincerely,\n");
 printf("%s %s\n",First_Name, Last_Name);
 printf("%d\n",ID);
     
-    
+    getchar();
 
 return 0;
 
