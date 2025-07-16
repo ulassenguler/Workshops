@@ -1,3 +1,12 @@
+/* 
+PseudoCode
+1)Start
+2)Declare First_Name, Last_Name, ID
+3)Read name surname and ID
+4)Print it
+5)Exit
+*/
+
 #include <stdio.h>
 
 int main(){
