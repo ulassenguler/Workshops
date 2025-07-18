@@ -57,7 +57,9 @@ int main(void)
     printf("Taxes    : $ %.4lf\n", tax_cent / 100.0);
     printf("Total    : $%.4lf\n", total_cent / 100.0);
     
-    
+    getchar();
+    getchar();
+
     return 0;
 }
 
