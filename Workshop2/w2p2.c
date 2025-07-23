@@ -1,3 +1,9 @@
+/*
+*****************************************************************************
+                          Workshop - #2 (P2)
+*****************************************************************************
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -96,7 +102,7 @@ int main(void)
     printf("Sales EXCLUDING tax\n");
     printf("Coin     Qty   Balance\n");
     printf("-------- --- ---------\n");
-    printf("         %9.4lf\n", total_sub_cent / 100.0);
+    printf("\t\t%9.4lf\n", total_sub_cent / 100.0);
     printf("Toonies  %3d   %9.4lf\n", toonies, (total_sub_cent - (toonies * 200)) / 100.0);
     printf("Loonies  %3d   %9.4lf\n", loonies, (total_sub_cent - (toonies * 200 + loonies * 100)) / 100.0);
     printf("Quarters %3d   %9.4lf\n", quarters, (total_sub_cent - (toonies * 200 + loonies * 100 + quarters * 25)) / 100.0);
@@ -125,7 +131,7 @@ int main(void)
     printf("\nSales INCLUDING tax\n");
     printf("Coin     Qty   Balance\n");
     printf("-------- --- ---------\n");
-    printf("         %9.4lf\n", total_all_cent / 100.0);
+    printf("\t\t%9.4lf\n", total_all_cent / 100.0);
     printf("Toonies  %3d   %9.4lf\n", toonies, (total_all_cent - (toonies * 200)) / 100.0);
     printf("Loonies  %3d   %9.4lf\n", loonies, (total_all_cent - (toonies * 200 + loonies * 100)) / 100.0);
     printf("Quarters %3d   %9.4lf\n", quarters, (total_all_cent - (toonies * 200 + loonies * 100 + quarters * 25)) / 100.0);
@@ -142,4 +148,3 @@ int main(void)
 
     return 0;
 }
-
